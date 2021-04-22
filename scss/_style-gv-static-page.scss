@@ -22,6 +22,26 @@
   font-weight: 400;
 }
 
+.consultation-br {
+  padding-top: 81px;
+  padding-left: 16px;
+  padding-right: 16px;
+  @include main-text;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.consultation-br > p > a {
+  color: $color-main;
+  text-decoration: underline;
+} 
+.consultation-br > p > a > img {
+  display: inherit;
+} 
+
 .wrp-advantages-br {
   @extend %pos-cent-marg;
   max-width: 1144px;
@@ -124,6 +144,9 @@
   .wrp-advantages-br {
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+  .consultation-br {
+    padding-top: 0;
   }
 }
 

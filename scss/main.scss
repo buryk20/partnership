@@ -129,6 +129,8 @@
   @extend %pos-cent-marg;
   font-family: $font-roboto-reg;
   text-align: center;
+  color: #ffffff;
+  Line-height: 24px;
 }
 
 .sows-text-mob-partner > h5 {
@@ -143,6 +145,7 @@
   font-size: 18px;
   font-weight: 400;
 }
+
 @media (max-width: 1700px) {
   .sows-text-partner > img {
     top: 230px;
@@ -225,11 +228,19 @@
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 540px) {
   .wrp-img-partner-types {
-    width: 80%;
-    height: auto;
+    width: 345px;
+    height: 429px;
+    font-size: 28px;
   }
+}
+
+@media (max-width: 490px) {
+  // .wrp-img-partner-types {
+  //   width: 80%;
+  //   height: auto;
+  // }
 }
 
 @media (max-width: 423px) {
